@@ -1,0 +1,24 @@
+SETUP THE SLIDE
+Search for “Image Carousel” on the search widget tab. Then follow the setting below.
+
+CONTENT TAB:
+Image size: Full
+Slides to Show: 3
+Slides to Scroll: 1
+
+STYLE TAB:
+Make sure the Image Spacing is “0”
+
+ADD CSS CODE TO WIDGET:
+Go to Advanced Tab >> scroll to Custom CSS >>  then paste the code below: 
+
+.swiper-slide .swiper-slide-inner img{
+    transform: scale(0.8);
+}
+
+.swiper-slide.swiper-slide-next .swiper-slide-inner img{
+    transform: scale(1);
+}
+
+
+
