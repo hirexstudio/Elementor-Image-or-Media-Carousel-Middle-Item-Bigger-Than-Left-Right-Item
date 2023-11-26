@@ -12,11 +12,11 @@ Make sure the Image Spacing is “0”
 ADD CSS CODE TO WIDGET:
 Go to Advanced Tab >> scroll to Custom CSS >>  then paste the code below: 
 
-.swiper-slide .swiper-slide-inner img{
-    transform: scale(0.8);
+.swiper-slide {
+    transform: scale(0.7);
 }
 
-.swiper-slide.swiper-slide-next .swiper-slide-inner img{
+.swiper-slide.swiper-slide-next{
     transform: scale(1);
 }
 
